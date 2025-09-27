@@ -12,7 +12,7 @@ def perform_operation(num1, num2, operation):
     elif operation == "divide":
         if num2 > 0:
             Result = num1 / num2
-        if num2 == 0 and num1 == 0:
+        if num2 == 0:
             print("Can't divide by zero")
     else :
         print("Please enter the right operation.")
